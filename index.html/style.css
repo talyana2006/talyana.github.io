@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .maloba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .milk{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .milk a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .milk a:hover {
+    color: #aa5486;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #000;
+    background-color: #aa5486;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #aa5486;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    padding-top: 60px;
+    /* background: url("nour-pic.jpg") no-repeat center/60%; */
+    overflow: hidden;
+  }
+  
+  #myself {
+    position: relative;
+    z-index: -10;
+    height: 100vh;
+  }
+  /* .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("nour-pic.jpg") no-repeat center right/contain;
+    opacity: 0.3;
+    z-index: 0;
+  } */
+  
+  .hero-content {
+    position: relative;
+    z-index: -10;
+  }
+  .hero-content h1 {
+    font-size: 6rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    max-width: 500px;
+    color: #ddd;
+  }
+  
+  .section {
+    height: 100vh;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #aa5486;
+  }
+  
+  .section p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  img{
+    height:400px;
+    width: 600px;
+    padding: 30px;
+    margin-left: 400px;
+  }
+  #font{
+    color: #aa5486;
+  }
